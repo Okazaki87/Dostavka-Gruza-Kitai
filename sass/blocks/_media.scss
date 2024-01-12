@@ -1,0 +1,389 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .menu {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__sizezn {
+            width: 800px;
+        }
+        &__box{
+            &__item {
+                margin-top: 15px;
+                padding-right: 30px;
+            }
+        }
+        &__vopros {
+            display: flex;
+            margin-top: 15px;
+            &__text {
+                margin-right: 15px;
+              
+            }
+        }
+        &__gridbox {
+            grid-template-columns: repeat(auto-fit, 250px);
+        }
+        &__opisanie {
+            &__title {
+                padding-top: 10px;
+        }
+        }
+    }
+    .button {
+        margin-top: 10px;
+    }
+
+    .plusi {
+        &__gridbox {
+            grid-template-columns: repeat(auto-fit, 530px);
+            justify-content: center;
+        }
+    }
+   .works {
+    padding: 51px 0px;
+        &__grid {
+            grid-template-columns: repeat(auto-fit, 360px);
+            justify-content: center;
+            row-gap: 30px;
+        }
+        &__text {
+            width: 780px;
+        }
+    }
+    .agent {
+        padding: 47px 0;
+        &__descr {
+            width: 100%;
+        }
+    }
+    .price {
+        padding: 53px 0px;
+        &__grid {
+            grid-template-columns: repeat(auto-fit, 267px);
+            justify-content: center;
+            gap: 20px;
+        }
+        &__kontur {
+            display: none;
+        }
+    }
+    .menedger {
+        padding: 60px 0px;
+        &__descr {
+            width: 100%;
+        }
+    }
+    .shema {
+        padding: 50px 0px;
+        &__grid {
+            grid-template-columns: repeat(2, 260px);
+            justify-content: center;
+            gap: 50px;
+            &__box {
+                &__box3 {
+                    grid-template-columns: repeat(2, 260px); 
+                    gap: 50px;
+                }
+            }
+        }
+    }
+    .vopros {
+        padding: 62px 0px;
+    }
+    .otzivi {
+        padding: 50px 0px;
+    }
+    .footer {
+        &__content {
+            justify-content: space-between;
+            &__niz {
+                &__politika {
+                    margin-right: 415px;
+                }
+            }
+            &__line {
+                width: 100%;
+            }
+            &__title {
+                margin-right: unset;
+            }
+          
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .menu {
+        &__sizezn {
+            width: 700px;
+        }
+        &__box{
+            &__item {
+                padding-right: 20px;
+            }
+        }   
+        &__gridbox {
+            justify-content: space-around;
+        }    
+    .lineone {
+        width: 100%;
+    }   
+    .linetwo {
+        width: 100%; 
+    }  
+    }
+    .button {
+        &__razchet {
+            margin-top: 70px;
+        }
+    }
+    .works {
+        &__text {
+            width: 680px;
+        }
+    }
+    .price {
+        &__contaktsform{
+            &__input {
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .vopros {
+        &__blok {
+            width: 100%;
+            &__zagalovok {
+                width: 100%;
+            }
+        }
+        &__contaktsform {
+            &__input {
+                input {
+                    width: 220px;
+                }
+                textarea {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .footer {
+        &__content {
+            &__niz {
+                &__politika {
+                    margin-right: 180px;
+                }
+            }
+        }
+    }
+
+
+@media  (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .menu {
+        &__sizezn {
+            width: 100%;
+        }
+        &__box{
+            &__item {
+                padding-right: 7px;
+            }
+        }  
+        &__opisanie {
+            &__descr{
+                font-size: 42px;
+                &-russia {
+                    font-size: 32px;
+                }
+            }
+        } 
+    .lineone {
+        width: 100%;
+        }   
+    .linetwo {
+        width: 100%; 
+        }  
+    }
+    .works {
+        &__text {
+            width: 480px;
+        }
+    }
+
+    .shema {
+        &__grid {
+            gap: 20px;
+            &__box {
+                &__box3 {
+                    gap: 20px;
+                }
+            }
+        }
+    }
+    .otzivi {
+        padding: 50px 0px;
+        &__descr {
+            width: 100%;
+        }
+        &__block {
+            grid-template-columns: 400px;
+        }
+        .slick-next {
+            left: 120px;
+        }
+        .slick-prev {
+            right: 120px;  
+        }
+    }
+    .vopros {
+        &__blok {
+            height: 390px;
+            padding: 0px 10px 0px 10px;
+        }
+        &__contaktsform {
+            &__input {
+                input {
+                    width: 100%;
+                }
+                textarea {
+                    width: 100%;
+                    margin-top: 12px;
+                }
+            }
+        }
+    }
+    .footer {
+        &__content {
+            flex-direction: column;
+            &__logo {
+                margin: unset;
+            }
+            &__niz {
+                flex-direction: column;
+                &__sait {
+                    margin-right: unset;
+                }
+                &__politika {
+                    margin-right: unset;
+                }
+            }
+        }
+    }
+
+}
+
+@media  (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .menu {
+        padding: 0;
+        padding-bottom: 40px;
+        &__vopros {
+            margin-top: -40px;
+        }
+        &__sizezn {
+            width: 100%;
+        }
+        &__box {
+             visibility: hidden;
+             justify-content: flex-end;
+            }
+        &__wrapper {
+            padding-top: 20px;
+            &__vopros {
+            margin-top: -20px;
+        } }
+        &__opisanie {
+            &__title {
+                font-size: 20px;
+            }
+            &__descr {
+                font-size: 30px;
+                &-russia {
+                    font-size: 22px;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .lineone {
+            width: 100%;
+           }   
+       .linetwo {
+           width: 100%;
+       } 
+    }
+  
+    .button {
+        &__razchet {
+            margin-top: 40px;
+        }
+     }
+    .hamburger {
+        visibility: visible;
+    }
+    .plusi {
+        &__gridbox {
+            grid-template-columns: repeat(auto-fit, 300px);
+            justify-content: center;
+        }
+    }
+
+    .works {
+        &__grid {
+            grid-template-columns: repeat(auto-fit, 290px);
+            justify-content: center;
+            row-gap: 30px;
+        }
+        &__text {
+            width: 280px;
+        }
+    }
+    .shema {
+        &__grid {
+            grid-template-columns: repeat(auto-fit, 260px);
+            gap: 10px;
+            &__box {
+                &__box3 {
+                    grid-template-columns: repeat(auto-fit, 260px); 
+                    gap: 10px;
+                }
+            }
+        }
+    }
+    .footer {
+        &__content {
+            &__title {
+                text-align: center;
+            }
+        }
+    }
+    .otzivi {
+        &__block {
+        grid-template-columns: 280px;
+      } 
+    .slick-next {
+        left: 55px;
+        top: 20%;
+    }
+    .slick-prev {
+        right: 55px; 
+        top: 20%; 
+    } 
+    }
+ 
+}
+
+}

@@ -1,0 +1,33 @@
+.plusi {
+    padding: 58px 0px 51px 0px;
+    min-height: 590px;
+    background-color: #f3f3f3;
+    &__gridbox {
+        margin-top: 31px;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 530px 530px;
+        grid-template-rows: minmax(65px, auto);
+        row-gap: 35px;
+        &__box {
+            display: grid;
+            grid-template-columns: 64px auto;
+            grid-template-rows: minmax(65px, auto);
+            column-gap: 15px;  
+        }
+        &__blocktext {
+            &__title {
+                font-size: 16px;
+                line-height: 22px;
+                font-weight: 700;
+                color: $button-color;
+            }
+            &__descr {
+                font-size: 14px;
+                font-weight: 300;
+                color: $tex-color-descr;
+            }
+        }
+    }
+  
+}

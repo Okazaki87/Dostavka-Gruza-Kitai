@@ -1,0 +1,32 @@
+.menedger {
+    min-height: 342px;
+    background: url("../img/menedger_bg.jpg") center center / cover no-repeat;
+    padding: 60px 75px;
+    &__foto {
+        img{
+        display: block;
+        margin: 0 auto;
+    }
+    }       
+    &__title {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__descr {
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        width: 990px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 22px;
+    
+    }
+       
+}

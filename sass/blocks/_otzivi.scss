@@ -1,0 +1,65 @@
+.otzivi {
+    padding: 50px 65px;
+    min-height: 470px;
+    background-color: #f3f3f3;
+    &__block {
+        display: grid;
+        margin-top: 31px;
+        grid-template-columns: 600px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 35px;
+        img {
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__title {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #3a3a3a;
+        text-align: center;
+        margin-top: 19px;
+
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        width: 800px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+.slick-next { // левая кнопка
+   /*  outline: none; // убираем обводку
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); */
+
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 24%;
+    transform: translateY(-50%);
+    left: 200px;
+    z-index: 1;
+    
+
+
+}
+.slick-prev { // правая кнопка 
+    outline: none;
+    border: 0;
+    position: absolute;
+    top: 24%;
+    transform: translateY(-50%);
+    right: 200px;
+    z-index: 1;
+    
+    
+}
+}
